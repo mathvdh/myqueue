@@ -1,10 +1,27 @@
 # myqueue
 
-My Queue with 2 stacks
+My Queue with 2 stacks.
 
-Example usage : 
 
-'''
+## Installation
+
+```
+git clone git@github.com:mathvdh/myqueue.git
+cd myqueue/
+python setup.py install
+or python setup.py develop
+```
+
+## Running the tests
+
+```
+python setup.py test
+```
+
+
+## Example usage
+
+```
 from myqueue import MyQueue
 
 myq = MyQueue()
@@ -38,4 +55,4 @@ myq.print_state()
 print "myq.poll()", myq.poll()
 print "myq.print_state()"
 myq.print_state()
-'''
+```
